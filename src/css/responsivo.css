@@ -135,7 +135,6 @@
 
     header {
         justify-content: space-between;
-        padding: 30px 70px 30px 40px;
     }
 
     header h1 {
@@ -160,7 +159,7 @@
         width: 100%;
         top: 90px;
         right: 0;
-        height: 100vh;
+        height: 80vh;
         background: linear-gradient(90deg, black, transparent);
         z-index: 1000;
     }
@@ -287,7 +286,7 @@
         width: 100%;
         top: 90px;
         right: 0;
-        height: 100vh;
+        height: 80vh;
         background: linear-gradient(90deg, black, transparent);
         z-index: 1000;
     }
