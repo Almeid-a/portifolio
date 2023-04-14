@@ -208,7 +208,8 @@
     }
 
     .portfolio {
-        position: fixed;
+        display: grid;
+        justify-content: center;
         z-index: -1;
     }
 }
@@ -318,4 +319,5 @@
     .resume_generico h3 {
         font-size: 1.2rem;
     }
+    
 }
