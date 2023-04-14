@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang=pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="home">Dev <span>Almeida</span></h1>
+        <i class="fa-solid fa-bars"></i>
+        <nav>
+            <ul aria-label="navegacao-primaria" class="navegacao-primaria">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre_mim">Sobre</a></li>
+                <li><a href="portifolio.html">Portfólio</a></li>
+                <li><a href="#info">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section aria-label="seção curriculo download Gabriel" class="section-div">
+        <div>
+            <h2 class="nome">Olá! Eu sou Gabriel de Almeida Rodrigues</h2>
+            <h2 class="digitando">Desenvolvedor Front-end</h2>
+            <p>Tenho 23 anos e estou no último ano do curso de Bacharelado em Engenharia de Software na 
+                Universidade Estadual de Ponta Grossa. Meu foco atual é no desenvolvimento web,
+                utilizando as linguagens HTML, CSS e JavaScript.</p>
+            <a class="curriculo" href="https://drive.google.com/file/d/1YUIdX5B9LFzqGnYHtTTgtsNNqzmdFYyr/view?usp=share_link" target="_blank">Download CV</a>
+            <a class="linkedin" href="https://www.linkedin.com/in/almeiida/" target="_blank">Linkedin</a>
+            <a class="github" href="https://github.com/Almeid-a" target="_blank">GitHub</a>
+        </div>
+        <img src="./src/imagens/Testefoto12.png" alt="imagem de uma pessoa">
+    </section>
+
+    <main>
+        <article aria-label="seção sobre mim" class="sobre">
+            <div class="sobre_titulo">
+                <h1 id="sobre_mim">Sobre Mim</h1>
+                <p>Olá! Meu nome é Gabriel de Almeida Rodrigues e sou um desenvolvedor web, morando em Ponta Grossa. 
+                    Atualmente, estou cursando o curso de Bacharelado em Engenharia de Software na Universidade Estadual de Ponta Grossa 
+                    e meu foco é criar interfaces interativas e visualmente atraentes para a web.<br><br>
+                    Meu trabalho envolve principalmente o uso das linguagens HTML, CSS e JavaScript, que utilizo para criar sites que sejam 
+                    intuitivos e fáceis de usar. Além disso, sempre estou em busca de novos desafios e oportunidades de aprendizado, para me manter atualizado ao mercado.
+                    <br><br>Quando não estou estudando, gosto de passar meu tempo livre jogando videogames e praticando algumas atividades físicas. 
+                </p>
+            </div>
+            <div class="sobre_conteudo">
+                <div class="sobre_texto">
+                    <h1 id="info">Informações e Contato</h1>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Debitis perspiciatis eius natus ad. Pariatur nobis ea aut 
+                        eum consequuntur ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Debitis perspiciatis eius natus ad. Pariatur nobis ea aut 
+                        eum consequuntur ipsam.
+                        <br>
+                    </p> -->
+                </div>
+                <div class="sobre_info">
+                    <p><i class="fa-solid fa-calendar-days"></i>Data de Nascimento: 09 set 1999</p>
+                    <p><i class="fa-solid fa-location-dot"></i>Endereço: Ponta Grossa, Paraná, Brasil</p>
+                    <p><i class="fa-solid fa-flag"></i>Nacionalidade: Brasileiro</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>Telefone: +55 (42)9 9835-3821</p>
+                    <p><i class="fa-solid fa-envelope"></i>Email: gabriel.almeidarod99@gmail.com</p>
+                </div>
+            </div>
+        </article>
+    </main>
+    <section class="services">
+        <div class="sobre_titulo">
+            <h1>Services</h1>
+        </div>
+        <div class="my_services">
+            <ul aria-label="navegacao-secundaria">
+                <li>
+                    <i class="fa-sharp fa-solid fa-pen-to-square"></i>
+                    <h3>Desenvolvedor Front-end</h3>
+                    <p>Profissional responsável por criar e desenvolver a 
+                        interface visual e interativa de sites e aplicações web,
+                        empenhado em garantir uma experiência de usuário 
+                        intuitiva e agradável.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <div class="resume">
+        <div class="resume_generico">
+            <div class="education_content">
+                <div>
+                    <p>Educação</p>
+                    <span>2018-2023</span>
+                    <h2>Bacharelado Engenharia de Software</h2>
+                    <h3>Universidade Estadual de Ponta Grossa</h3>
+                </div>
+            </div>
+            <!-- <h2 class="experience"><i class="fa-solid fa-handshake">Experiencia</i></h2>
+            <div class="experience_content">
+                <div>
+                    <span>Exemplo Ano</span>
+                    <h3>Exemplo *****</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Consectetur, incidunt!
+                    </p>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
