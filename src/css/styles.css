@@ -421,6 +421,7 @@ main .sobre {
     display: flex;
     justify-content: center;
     font-size: 1.4rem;
+    text-align: center;
 }
 
 .resume_generico h3{
