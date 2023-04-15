@@ -92,7 +92,13 @@ header .navegacao-primaria li a:hover::after {
     color: #ffffff;
 }
 
-.section-div div .curriculo{
+.links li {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.links .curriculo{
     justify-self: center;
     color: #ffffff;
     padding: 15px 40px;
@@ -100,18 +106,18 @@ header .navegacao-primaria li a:hover::after {
     border: 2px solid white;
 }
 
-.section-div div .linkedin{
+.links .linkedin{
     justify-self: center;
     color: #ffffff;
-    padding: 15px 57px;
+    padding: 15px 58px;
     border-radius: 5px;
     border: 2px solid white;
 }
 
-.section-div div .github{
+.links .github{
     justify-self: center;
     color: #ffffff;
-    padding: 15px 60px;
+    padding: 15px 63px;
     border-radius: 5px;
     border: 2px solid white;
 }

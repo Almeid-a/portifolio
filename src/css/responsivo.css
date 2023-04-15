@@ -9,7 +9,6 @@
         padding: 40px;
         display: flex;
         position: relative;
-        z-index: -1;
     }
 
     .section-div div {
@@ -22,18 +21,6 @@
 
     .section-div div p {
         text-align: justify;
-    }
-
-    .section-div div .curriculo{
-        justify-self: center;
-    }
-
-    .section-div div .linkedin{
-        justify-self: center;
-    }
-
-    .section-div div .github{
-        justify-self: center;
     }
 
     header {
@@ -69,7 +56,6 @@
         right: 0;
         height: 100vh;
         background: linear-gradient(90deg, black, transparent);
-        z-index: 1000;
     }
 
     header .navegacao-primaria.ativado a{
@@ -106,7 +92,6 @@
         display: grid;
         gap: 30px;
         justify-content: center;
-        grid-template-columns: 1fr;
         margin-top: -30px;
     }
 
@@ -119,18 +104,6 @@
     .section-div p {
         font-size: 1.1rem;
         width: 100%;
-    }
-
-    .section-div div .curriculo{
-        justify-self: center;
-    }
-
-    .section-div div .linkedin{
-        justify-self: center;
-    }
-
-    .section-div div .github{
-        justify-self: center;
     }
 
     header {
@@ -161,12 +134,16 @@
         right: 0;
         height: 80vh;
         background: linear-gradient(90deg, black, transparent);
-        z-index: 1000;
     }
 
     header .navegacao-primaria.ativado a{
-        margin: 0 2rem;
+        margin: 0 2.5rem;
         border-bottom: 3px solid #9200fa;
+    }
+
+    .links li {
+        display: grid;
+        gap: 15px;
     }
 
     main .sobre {
@@ -209,7 +186,6 @@
     .portfolio {
         display: grid;
         justify-content: center;
-        z-index: -1;
     }
 }
 
@@ -222,13 +198,12 @@
     .section-div {
         background-repeat: repeat;
         background-size: cover;
-        padding: 30px 0px 30px 30px;
+        z-index: -1;
     }
 
     .section-div div {
         display: grid;
         gap: 30px;
-        grid-template-columns: 1fr;
     }
 
     .section-div h2 {
@@ -240,23 +215,6 @@
         font-size: 1.2rem;
         width: 300px;
         text-align: justify;
-    }
-
-    .section-div p {
-        font-size: 1.2rem;
-        width: 90%;
-    }
-
-    .section-div div .curriculo{
-        justify-self: center;
-    }
-
-    .section-div div .linkedin{
-        justify-self: center;
-    }
-
-    .section-div div .github{
-        justify-self: center;
     }
 
     header {
@@ -280,7 +238,7 @@
         list-style: none;
     }
 
-    header .navegacao-primaria.ativado {
+     header .navegacao-primaria.ativado {
         display: block;
         position: absolute;
         width: 100%;
@@ -288,12 +246,16 @@
         right: 0;
         height: 80vh;
         background: linear-gradient(90deg, black, transparent);
-        z-index: 1000;
-    }
+    } 
 
     header .navegacao-primaria.ativado a{
         margin: 0 2rem;
         border-bottom: 3px solid #9200fa;
+    }
+
+    .links li {
+        display: grid;
+        gap: 15px;
     }
 
     .sobre_conteudo {
