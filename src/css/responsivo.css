@@ -72,7 +72,124 @@
     }
 }
 
-@media (max-width: 800px)  {
+@media (max-width: 900px)  {
+
+    header h1 {
+        margin-left: -10px;
+    }
+
+    .section-div img {
+        display: none;
+    }
+
+    .section-div {
+        background-repeat: repeat;
+        background-size: cover;
+        z-index: -1;
+    }
+
+    .section-div div {
+        display: grid;
+        gap: 30px;
+        justify-content: center;
+        margin-top: -30px;
+    }
+
+    .section-div .nome {
+        font-size: 1rem;
+        font-weight: 100px;
+        text-align: justify;
+    }
+
+    .section-div p {
+        font-size: 1.1rem;
+        width: 100%;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    header h1 {
+       margin-top: 3px;
+    }
+
+    header i {
+        color: #f7f7f7;
+        font-size: 3rem;
+        margin-left: 30%;
+    }
+
+    header .navegacao-primaria {
+        display: none;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    header .navegacao-primaria.ativado {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 90px;
+        right: 0;
+        height: 80vh;
+        background: linear-gradient(90deg, black, transparent);
+    }
+
+    header .navegacao-primaria.ativado a{
+        margin: 0 2.5rem;
+        border-bottom: 3px solid #9200fa;
+    }
+
+    .links li {
+        display: grid;
+        gap: 15px;
+    }
+
+    main .sobre {
+        padding: 10px 40px 10px 30px;
+    }
+
+    main .sobre_titulo {
+        margin-left: 10px;
+        /* margin-right: 30px; */
+    }
+
+    .sobre_conteudo {
+        grid-column: 1/-1;
+    }
+
+    .sobre_texto h1 {
+        padding: 10px;
+        margin-top: -20px;
+    }
+
+    .sobre_info {
+        display: block;
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .sobre_info p {
+        margin-block: 10px;
+        font-size: 1.2rem;
+    }
+
+    .resume_generico h2 {
+        font-size: 1.1rem;
+    }
+
+    .resume_generico h3 {
+        font-size: 1.2rem;
+    }
+
+    .portfolio {
+        display: grid;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 700px)  {
 
     header h1 {
         margin-left: -10px;
