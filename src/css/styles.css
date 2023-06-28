@@ -352,7 +352,7 @@ main .sobre {
     font-size: 1.1rem;
 }
 
-.my_services li::before {
+/* .my_services li::before {
     content: '';
     border-radius: 6px;
     width: 0px;
@@ -390,7 +390,7 @@ main .sobre {
     height: 100%;
     border-bottom: 2px solid #a125fa;
     border-left: 2px solid #a125fa;
-}
+} */
 
 /* Section Sobre Resumo */
 
@@ -438,6 +438,89 @@ main .sobre {
     font-size: 1.4rem;
     text-align: center;
 }
+
+.certificados {
+    margin-top: -70px;
+    padding: 60px;
+    background-color: #000000;
+    animation: inicializar .7s forwards;
+}
+
+.certificados ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificados ul li {
+    cursor: pointer;
+    border-radius: 6px;
+    position: relative;
+    padding: 5px;
+    display: grid;
+    gap: 10px;
+    text-align: center;
+    width: 200px;
+    align-content: center;
+    height: 200px;
+    background-color: #222222;
+}
+  
+.my_certificados ul li h3 {
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.my_certificados ul li p {
+    /* color: #707070; */
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.my_certificados li::before {
+    content: '';
+    border-radius: 6px;
+    width: 0px;
+    width: 0px;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+    transition: .5s ease-in-out;
+}
+
+.my_certificados li::after {
+    content: '';
+    border-radius: 6px;
+    width: 0px;
+    width: 0px;
+    position: absolute;
+    bottom: -2px;
+    left: -2px;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+    transition: .5s ease-in-out;
+}
+
+.my_certificados li:hover::before {
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #a125fa;
+    border-right: 2px solid #a125fa;
+}
+
+.my_certificados li:hover::after {
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #a125fa;
+    border-left: 2px solid #a125fa;
+}
+
 
 /* Seção Portifolio */
 .portfolio {
@@ -527,3 +610,4 @@ main .sobre {
     border-bottom: 2px solid #a125fa;
     border-left: 2px solid #a125fa;
 }
+
